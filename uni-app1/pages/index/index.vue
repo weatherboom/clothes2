@@ -1,5 +1,18 @@
 <template>
-	<view class="content">
+	<view class="container">
+		<swiper class="swiper" :indicator-dots="true" :autoplay="true" :interval="3000" :duration="1000">
+			<swiper-item>
+				<navigator url="">
+					<image src="" mode="">1</image>
+				</navigator>
+			</swiper-item>
+			<swiper-item>
+				<view class="swiper-item">2</view>
+			</swiper-item>
+			<swiper-item>
+				<view class="swiper-item">3</view>
+			</swiper-item>
+		</swiper>
 		
 	</view>
 </template>
@@ -8,48 +21,12 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
-			}
-		},
-		onShow(){
-			
-		},
-		onLoad() {
-
-		},
-		onPullDownRefresh(){
-			console.log('页面下拉刷新')
-		},
-		methods: {
-
+				
+			};
 		}
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
+<style lang="scss">
 
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
 </style>

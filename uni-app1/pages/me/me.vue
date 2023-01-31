@@ -12,7 +12,7 @@
 		<view class="vip">
 			<view class="open-vip">
 				<text>开通会员享洗护折扣</text>
-				<button type="primary">立即充值</button>
+				<button type="primary" size=mini"">立即充值</button>
 			</view>
 		</view>
 		<section class="section">
@@ -115,10 +115,17 @@
 .section{
 	width: 90%;
 	margin: 0 auto;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	.user-list{
 		display: flex;
 		flex-direction: column;
-		
+		& > uni-list-item{
+			font-size: 16px;
+			line-height: 30px;
+			padding: 5px 10px;
+			
+		}
 	}
 }
 
