@@ -72,5 +72,8 @@
 			"text":"我的"
 		}]
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"usingComponents":{
+		"van-button":"@vant/weapp/button/index"
+	}
 }

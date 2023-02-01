@@ -12,7 +12,7 @@
 		<view class="vip">
 			<view class="open-vip">
 				<text>开通会员享洗护折扣</text>
-				<button type="primary" size=mini"">立即充值</button>
+				<button type="primary" size="mini">立即充值</button>
 			</view>
 		</view>
 		<section class="section">
