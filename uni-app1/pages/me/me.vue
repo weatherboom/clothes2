@@ -2,19 +2,19 @@
 	<view class="container">
 		<view class="header">
 			<view class="user-head">
-				<image class="user-pic" src="@/static/mine-pic/225默认头像.png" mode=""></image>
+				<image class="user-pic" src="@/static/mine-pic/一般_用户.png" mode=""></image>
 				<view class="name-hi">
 					<text class="name">昵称</text>
 					<text class="hello">欢迎光临</text>
 				</view>
 			</view>
 		</view>
-		<view class="vip">
+		<!-- <view class="vip">
 			<view class="open-vip">
 				<text>开通会员享洗护折扣</text>
 				<button type="primary" size="mini">立即充值</button>
 			</view>
-		</view>
+		</view> -->
 		<section class="section">
 			<uni-list class="user-list">
 				<uni-list-item title="" note="">个人钱包</uni-list-item>
@@ -51,7 +51,9 @@
 .header{
 	width: 100vw;
 	height:130px;
-	background-color: #FF8D1A;
+	background-image: url('@/static/mine-pic/矩形 1.png');
+	background-repeat: no-repeat;
+	background-size: contain;
 	position: relative;
 	margin-top: 0px;
 	padding: 10px 20px ;
@@ -114,9 +116,14 @@
 
 .section{
 	width: 90%;
+	position: absolute;
+	top: 104px;
+	left: 21px;
 	margin: 0 auto;
 	border-radius: 8px;
-	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+	opacity: 1;
+	background-color: #ffffff;
 	.user-list{
 		display: flex;
 		flex-direction: column;
