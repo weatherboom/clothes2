@@ -3,13 +3,15 @@
     "pages/index/index",
     "pages/404/404",
     "pages/me/me",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/register/register"
   ],
   "subPackages": [
     {
       "root": "subpages",
       "pages": [
-        "ad/ad"
+        "ad/ad",
+        "goods_detail/goods_detail"
       ]
     }
   ],

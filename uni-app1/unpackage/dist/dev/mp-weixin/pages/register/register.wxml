@@ -1,0 +1,1 @@
+<view class="container"><view class="_header"><view class="top-pic"><image src mode></image></view></view><view class="_section"><input class="mobile-number" type="number"/><input type="safe-password"/></view></view>

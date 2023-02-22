@@ -1,1 +1,1 @@
-<view class="login-container"><button class="btn-login" type="primary">一键登录</button><text class="tips-text">登陆后尽享更多权益</text></view>
+<view class="login-container"><button class="btn-login" type="primary" open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">一键登录</button><text class="tips-text">登陆后尽享更多权益</text></view>
